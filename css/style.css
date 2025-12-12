@@ -464,9 +464,11 @@ form button {
     .navbar img {
         margin-left: 20px;
     }
-
+    
     nav ul {
         margin-right: 20px;
+        gap: 10px;
+        margin-right: 10px;
     }
 
     nav ul li a {
@@ -516,6 +518,11 @@ form button {
 
     .navbar img {
         margin-bottom: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+        align-items: center;
     }
 
     header .content h1 {
