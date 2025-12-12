@@ -521,8 +521,9 @@ form button {
     }
 
     nav ul {
-        gap: 10px;
+        gap: 0;
         align-items: center;
+        margin: 0;
     }
 
     header .content h1 {
@@ -571,5 +572,12 @@ form button {
     #contact .contact-info,
     form {
         width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    nav ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 }
